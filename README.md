@@ -3,7 +3,7 @@
 # NR1-Multi-Status
 
 >NewRelic visualization that allows for multiple simple red/yellow/green light status on on widget
-
+![example basic](https://github.com/newrelic-experimental/nr1-multi-status/blob/main/screenshots/example1.PNG)
 ## Installation
 > install the node modules  --  npm install <br />
   build the nerdpack   --  nr1 nerdpack:build <br />
