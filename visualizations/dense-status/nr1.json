@@ -1,0 +1,90 @@
+{
+  "schemaType": "VISUALIZATION",
+  "id": "multi-status",
+  "displayName": "MultiStatus",
+  "description": "",
+  "configuration": [
+    {
+      "name": "groupname",
+      "title": "Group Name",
+      "description": "Group Name",
+      "type": "string"
+    },
+    {
+      "name": "urltarget",
+      "title": "URL Link",
+      "description": "URL to nav to when on click",
+      "type": "string"
+    },
+    {
+      "name": "nrqlQueries",
+      "title": "NRQL Queries",
+      "type": "collection",
+      "items": [
+        {
+          "name": "accountId",
+          "title": "Account ID",
+          "description": "Account ID to be associated with the query",
+          "type": "number"
+        },
+        {
+          "name": "query",
+          "title": "Query",
+          "description": "NRQL query for visualization",
+          "type": "nrql"
+        },
+        {
+          "name": "label",
+          "title": "Label",
+          "description": "Custom Label",
+          "type": "string"
+        },
+        {
+          "name": "warncondition",
+          "title": "Warning Condition",
+          "description": "How to compare",
+          "type": "enum",
+          "items": [
+            {
+              "title": ">",
+              "value": ">"
+            },
+            {
+              "title": "<",
+              "value": "<"
+            }
+          ]
+        },
+        {
+          "name": "warnthreshold",
+          "title": "Warning Threshold",
+          "description": "Threshold Value",
+          "type": "number"
+        },
+        {
+          "name": "alertcondition",
+          "title": "Alert Condition",
+          "description": "How to compare",
+          "type": "enum",
+          "items": [
+            {
+              "title": ">",
+              "value": ">"
+            },
+            {
+              "title": "<",
+              "value": "<"
+            }
+          ]
+        },
+        {
+          "name": "alertthreshold",
+          "title": "Alert Threshold",
+          "description": "Threshold Value",
+          "type": "number"
+        }
+      ]
+    }
+  
+  ]
+}

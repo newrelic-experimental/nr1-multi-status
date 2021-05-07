@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "nr1-multi-status-launcher",
+    "displayName": "Nr1MultiStatusLauncher",
+    "description": "Describe me",
+    "rootNerdletId": "nr1-multi-status-nerdlet"
+}
